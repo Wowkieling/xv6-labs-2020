@@ -1,3 +1,10 @@
+/*
+ * @Author: lhl
+ * @Date: 2023-12-10 22:17:26
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-06-23 23:46:43
+ * @Description: 
+ */
 // System call numbers
 #define SYS_fork    1
 #define SYS_exit    2
@@ -20,3 +27,5 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
+#define SYS_trace  22
+#define SYS_sysinfo 23

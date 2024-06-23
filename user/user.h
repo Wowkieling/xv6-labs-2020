@@ -1,5 +1,13 @@
+/*
+ * @Author: lhl
+ * @Date: 2023-12-10 22:17:26
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2024-06-23 23:54:38
+ * @Description: 
+ */
 struct stat;
 struct rtcdate;
+struct sysinfo;
 
 // system calls
 int fork(void);
@@ -23,6 +31,8 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+int trace(int);
+int sysinfo(struct sysinfo *);
 
 // ulib.c
 int stat(const char*, struct stat*);
